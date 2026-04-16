@@ -5,45 +5,75 @@ body {
     color: white;
 }
 
-header {
+.hero {
     text-align: center;
-    padding: 50px;
-    background: linear-gradient(90deg, #2563eb, #7c3aed);
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
 }
 
-h1 {
-    margin: 0;
-    font-size: 40px;
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.buttons a {
+    margin: 10px;
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.buttons a:hover {
+    background: #ddd;
 }
 
 section {
-    padding: 40px;
+    padding: 50px 20px;
     text-align: center;
 }
 
-.skill-box span {
-    display: inline-block;
-    background: #1e293b;
-    margin: 10px;
-    padding: 10px 15px;
-    border-radius: 8px;
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.project-card {
+.card {
+    background: #1e293b;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+}
+
+.project {
     background: #1e293b;
     padding: 20px;
     border-radius: 10px;
-    margin: 20px auto;
-    width: 60%;
+    width: 300px;
 }
 
-a {
+.project a {
+    display: inline-block;
+    margin-top: 10px;
     color: #38bdf8;
-    text-decoration: none;
 }
 
 footer {
-    text-align: center;
-    padding: 20px;
     background: #020617;
+    padding: 20px;
+    text-align: center;
 }
