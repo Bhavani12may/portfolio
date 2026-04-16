@@ -1,13 +1,49 @@
 body {
-    font-family: Arial;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+header {
     text-align: center;
-    background: #f4f4f4;
+    padding: 50px;
+    background: linear-gradient(90deg, #2563eb, #7c3aed);
 }
 
 h1 {
-    color: #333;
+    margin: 0;
+    font-size: 40px;
 }
 
-p {
-    color: #555;
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+.skill-box span {
+    display: inline-block;
+    background: #1e293b;
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.project-card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 60%;
+}
+
+a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
 }
